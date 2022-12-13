@@ -4,7 +4,7 @@
 
 import java.util.Scanner;
 
-public class DateValue{
+public class six{
     public static void main(String[] args) {
         System.out.println("Enter the number of days: ");
         Scanner sc = new Scanner(System.in);
