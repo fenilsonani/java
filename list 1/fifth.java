@@ -8,14 +8,18 @@ import java.util.Scanner;
 public class Conversion{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        byte byteVariable = 0;
         int intVariable = 260;
         double doubleVariable = 323.142;
+        byte byteVariable = 0;
+        byte byteVariable1 = 0;
+        int intVariable1 = 0;
         byteVariable = (byte) intVariable;
-        intVariable = (int) doubleVariable;
-        doubleVariable = (double) byteVariable;
-        System.out.println("Byte variable: " + byteVariable);
-        System.out.println("Int variable: " + intVariable);
+        byteVariable1 = (byte) doubleVariable;
+        intVariable1 = (int) doubleVariable;       
         System.out.println("Double variable: " + doubleVariable);
+        System.out.println("Double Int variable: " + intVariable1);
+        System.out.println("Double Byte variable: " + byteVariable1);
+        System.out.println("Int variable: " + intVariable);
+        System.out.println("Int Byte variable: " + byteVariable);
     }
 }
