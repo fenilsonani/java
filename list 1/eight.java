@@ -18,9 +18,9 @@ public class eight{
         double holdingCost = sc.nextInt();
         double EOQ = Math.sqrt((2 * setupCost * demandRate) / holdingCost);
         EOQ = (int) EOQ;
-        double TBO = (2 * setupCost) / (demandRate * holdingCost);
+        double TBO = Math.sqrt((2 * setupCost) / (demandRate * holdingCost));
         TBO = (int) TBO;
-        System.out.println("EOQ: " + EOQ);
-        System.out.println("TBO: " + TBO);
+        System.out.println("Economic order quantity(EOQ): " + EOQ);
+        System.out.println("Total benefit of ownership(TBO): " + TBO);
     }
 }
