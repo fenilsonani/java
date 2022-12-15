@@ -10,6 +10,7 @@ class nine {
         System.out.println("Enter the amount: ");
         Scanner sc = new Scanner(System.in);
         int amount = sc.nextInt();
+        sc.close();
         int notes500 = amount / 500;
         int notes100 = (amount % 500) / 100;
         int notes50 = ((amount % 500) % 100) / 50;

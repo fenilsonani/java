@@ -20,5 +20,6 @@ public class seven{
         double distance = (u * t) + ((a * (t * t) )/ 2);
         distance =(int) distance;
         System.out.println("Distance travelled: " + distance);
+        sc.close();
     }
 }

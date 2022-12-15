@@ -15,5 +15,6 @@ public class six{
         System.out.println("Years: " + years);
         System.out.println("Months: " + months);
         System.out.println("Days: " + remainingDays);
+        sc.close();
     }
 }

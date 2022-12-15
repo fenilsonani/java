@@ -21,5 +21,6 @@ public class fifth{
         System.out.println("Double Byte variable: " + byteVariable1);
         System.out.println("Int variable: " + intVariable);
         System.out.println("Int Byte variable: " + byteVariable);
+        sc.close();
     }
 }

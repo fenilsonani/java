@@ -17,5 +17,6 @@ public class twelve {
             }
         }
         System.out.println("Sum of all integers greater than 100 and less than 200 that are divisible by 7: " + sum);
+        sc.close();
     }
 }

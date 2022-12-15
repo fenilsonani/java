@@ -17,5 +17,6 @@ class Third{
         System.out.println("Average of two variables: " + avg);
         int min = subject_mark1 < subject_mark2 ? subject_mark1 : subject_mark2;
         System.out.println("Minimum of two variables: " + min);
+        sc.close();
     }
 }

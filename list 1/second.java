@@ -9,5 +9,6 @@ public class second{
         float price = sc.nextFloat();
         int paisa = (int) (price * 100);
         System.out.println("Price in paisa: " + paisa + " paisa");
+        sc.close();
     }
 }

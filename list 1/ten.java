@@ -21,5 +21,6 @@ public class ten {
                 }
             }
         }
+        sc.close();
     }
 }

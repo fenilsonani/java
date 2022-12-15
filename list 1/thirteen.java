@@ -34,5 +34,6 @@ class CalculatioProcess{
             System.out.println(name+" You Are Not Eligible For Admission");
             System.out.println("Please Try Again Next Year");
         }
+        sc.close();
     }
 }

@@ -10,5 +10,6 @@ public class fourth{
         int asciiNumber = sc.nextInt();
         char character = (char) asciiNumber;
         System.out.println("Character of given ASCII number: " + character);
+        sc.close();
     }
 }

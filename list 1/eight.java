@@ -22,5 +22,6 @@ public class eight{
         TBO = (int) TBO;
         System.out.println("Economic order quantity(EOQ): " + EOQ);
         System.out.println("Total benefit of ownership(TBO): " + TBO);
+        sc.close();
     }
 }
