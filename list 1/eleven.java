@@ -6,7 +6,7 @@
 
 import java.util.Scanner;
 
-class Calculation{
+class Calculation {
     int totalEven = 0;
     int totalOdd = 0;
     int sumEven = 0;
@@ -14,57 +14,62 @@ class Calculation{
     int n[];
     int number;
 
-    Calculation(){
-       
+    Calculation() {
+
     }
 
-    void getdata(){
-        Scanner sc=new Scanner(System.in);
+    void getdata() {
+        Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of elements in array:");
-        number=sc.nextInt();
-        n=new int[number];
+        number = sc.nextInt();
+        n = new int[number];
         System.out.println("Enter The Array Input:");
-        for(int i=0;i<number;i++){
-            n[i]=sc.nextInt();
+        for (int i = 0; i < number; i++) {
+            n[i] = sc.nextInt();
         }
+        sc.close();
     }
-    void totalEven(){
-        for(int i=0;i<number;i++){
-            if(n[i]%2==0){
+
+    void totalEven() {
+        for (int i = 0; i < number; i++) {
+            if (n[i] % 2 == 0) {
                 totalEven++;
             }
         }
-        System.out.println("Total Even Number:"+totalEven);
+        System.out.println("Total Even Number:" + totalEven);
     }
-    void totalOdd(){
-        for(int i=0;i<number;i++){
-            if(n[i]%2!=0){
+
+    void totalOdd() {
+        for (int i = 0; i < number; i++) {
+            if (n[i] % 2 != 0) {
                 totalOdd++;
             }
         }
-        System.out.println("Total Odd Number:"+totalOdd);
+        System.out.println("Total Odd Number:" + totalOdd);
     }
-    void sumEven(){
-        for(int i=0;i<number;i++){
-            if(n[i]%2==0){
-                sumEven+=n[i];
+
+    void sumEven() {
+        for (int i = 0; i < number; i++) {
+            if (n[i] % 2 == 0) {
+                sumEven += n[i];
             }
         }
-        System.out.println("Sum of Even Number:"+sumEven);
+        System.out.println("Sum of Even Number:" + sumEven);
     }
-    void sumOdd(){
-        for(int i=0;i<number;i++){
-            if(n[i]%2!=0){
-                sumOdd+=n[i];
+
+    void sumOdd() {
+        for (int i = 0; i < number; i++) {
+            if (n[i] % 2 != 0) {
+                sumOdd += n[i];
             }
         }
-        System.out.println("Sum of Odd Number:"+sumOdd);
+        System.out.println("Sum of Odd Number:" + sumOdd);
     }
 }
 
-class eleven{
+class eleven {
     public static void main(String[] args) {
-        Calculation cal=new Calculation();
+        Calculation cal = new Calculation();
         do {
             int opt;
             System.out.println("1.Enter The Data");
@@ -74,9 +79,9 @@ class eleven{
             System.out.println("5.Sum of all odd integers");
             System.out.println("6.All of the above");
             System.out.println("7.Exit");
-            Scanner sc=new Scanner(System.in);
+            Scanner sc = new Scanner(System.in);
             System.out.println("*******************Enter the option*******************");
-            opt=sc.nextInt();
+            opt = sc.nextInt();
 
             // write a switch case to perform the task
 
@@ -109,6 +114,7 @@ class eleven{
                     System.out.println("Invalid Option");
                     break;
             }
-        } while (0<1);
+            sc.close();
+        } while (0 < 1);
     }
 }
