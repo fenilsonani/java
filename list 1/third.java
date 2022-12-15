@@ -4,6 +4,8 @@
 // 2. Consider same variable and display average using conditional operator.
 // 3. Display minimum marks of student.
 
+import java.util.Scanner;
+
 class Third{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

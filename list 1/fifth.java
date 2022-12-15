@@ -5,7 +5,7 @@
 
 import java.util.Scanner;
 
-public class Conversion{
+public class fifth{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int intVariable = 260;
