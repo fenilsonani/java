@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class second{
+class second{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the price of item in decimal form: ");
