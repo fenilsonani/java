@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <style>
+        .main {
+            padding: 200px 100px;
+            display: flex;
+            flex-direction: column;
+            background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+
+        }
+
+        .first,
+        .second {
+            width: 200px;
+            height: 30px;
+            margin: 10px;
+            border: 1px solid black;
+            border-radius: 5px;
+            padding: 5px;
+            margin:15px auto ;
+            border: none;
+            outline: none;
+        }
+            
+
+        button{
+            background-color: lightblue;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 0.5rem;
+            color: black;
+            font-size: large;
+            font-weight: 700;
+            width: 200px;
+            margin: auto;
+        }
+        .output {
+            margin: 10px  auto;
+            font-size: 20px;
+        }
+
+        .output-box {
+            margin: 10px auto;
+            width: 200px;
+            height: 50px;
+            border: 1px solid black;
+            border-radius: 5px;
+            padding: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .copybutton{
+            margin: auto;
+            display: none;
+        }
+    </style>
+    <title>Reminder Calculator</title>
+</head>
+
+<body>
+    <div class="main">
+        <input type="number" class="first" placeholder="enter first number">
+        <input type="number" class="second" placeholder="enter second number">
+        <button onclick="fenil()">Calculate</button>
+        <div class="output-box">
+            <p class="output">0</p>
+        </div>
+    </div>
+    <script>
+        function fenil() {
+            let a = document.querySelector(".first").value;
+            // alert(a);
+            let b = document.querySelector(".second").value;
+            // alert(b);
+            let c = a % b;
+            console.log(c);
+            document.querySelector(".output").innerHTML = c;
+            document.querySelector(".copybutton").style.display = "block";
+        }
+    </script>
+</body>
+</html>
