@@ -1,3 +1,5 @@
+// <-- protected access -->
+
 package pkg1;
 import java.util.*;
 
