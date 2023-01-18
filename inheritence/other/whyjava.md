@@ -12,21 +12,22 @@ should class C inherit from?
 
 ```java
 class X {
-    // code
+    // ...
 }
 
 class A extends X {
-    // code
+    // ...
 }
 
 class B extends X {
-    // code
+    // ...
 }
 
 class C extends A, B {
-    // code
+    // ...
 }
 ```
+
 
 The answer is that class C should inherit from class X. This is
 
