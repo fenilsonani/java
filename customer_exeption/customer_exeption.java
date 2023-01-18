@@ -7,6 +7,8 @@ class customer_exeption extends Exception
     public customer_exeption(String s)
     {
         super(s);
+        // explaination of super keyword
+        // super keyword is used to call the parent class constructor
     }
 }
 
