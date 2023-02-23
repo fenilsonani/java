@@ -1,3 +1,5 @@
+package prac3;
+
 import java.util.Scanner;
 
 // Assume that a bank maintains two kinds of accounts for customers, one called as savings

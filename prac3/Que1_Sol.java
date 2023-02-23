@@ -1,3 +1,5 @@
+package prac3;
+
 // 1. Define a class called UserAccount with Data member: username, emailId, password
 // Method: Constructor, getter and setter method.
 // Define another class called Yahoo which inherits from UserAccount class with Data

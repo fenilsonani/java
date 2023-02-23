@@ -1,3 +1,5 @@
+package prac3;
+
 // 2. Uka Tarsadia University awards some grace marks to students who participate in the
 // national games. Therefore, total marks awarded = Exam_Marks + Sports_Grace_Marks.
 // If total marks scored are greater than maximum marks, then the final marks awarded

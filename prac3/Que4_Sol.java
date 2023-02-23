@@ -1,3 +1,5 @@
+package prac3;
+
 // Create a class inventory that contains data members like item id, item name, price,
 // stock. Create two more classes which is inherit from inventory class namely purchase
 // and sales. Upon purchase and selling of the items stock should be updated. Implement
