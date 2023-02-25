@@ -25,7 +25,7 @@ class Counted {
 }
 
 public class Que6 {
-    public static void main(String[] args) {
+    public static void main(String[] args) { 
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter number of objects to be created: ");
