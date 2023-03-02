@@ -1,1 +1,0 @@
-// create a math class in package with methods like get
