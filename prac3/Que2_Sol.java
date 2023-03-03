@@ -109,7 +109,7 @@ class Results extends Exam {
 
 public class Que2_Sol {
     public static void main(String[] args) {
-        Results r = new Results("John", 1, 100, 910, 10);
+        Results r = new Results("Fenil", 1, 100, 910, 10);
         System.out.println("Name: " + r.getName());
         System.out.println("Roll No: " + r.getRollNo());
         System.out.println("Max Marks: " + r.getMaxMarks());
