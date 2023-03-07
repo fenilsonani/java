@@ -114,5 +114,31 @@ class Que3 {
             String instituteName = sc.next();
             participants[i] = new Participant(id, name, city, contactNo, score, instituteId, instituteName);
         }
+        for(int i=0;i<n;i++){
+            participants[i].calculateCreditPoint();
+            participants[i].allocateRank();
+            participants[i].displayParticipant();
+        }
     }
 }
+ 
+
+// Output:-
+// Enter number of participants: 1
+// Enter details of participant 1
+// Enter participant id: 1
+// Enter participant name: abc
+// Enter participant city: surat
+// Enter participant contact no: 1234567890
+// Enter participant score: 10 20 30 40 50
+// Enter institute id: 1
+// Enter institute name: abc
+// Participant ID: 1
+// Participant Name: abc
+// Participant City: Surat
+// Participant Contact No: 1234567890  
+// Participant Score: [10, 20, 30, 40, 50]
+// Institute ID: 1
+// Institute Name: abc
+// Credit Point: 30.0
+// Rank: Looser
